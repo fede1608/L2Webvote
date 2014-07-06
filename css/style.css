@@ -1,276 +1,327 @@
 body {
-	background: #1B1B1B url('./images/body_bg.jpg');
-	color: #999999;
-	font: 12px Tahoma, Geneva, sans-serif;
-    margin:0 auto;
-    padding:14px;
-    text-align:center;
-    width:500px;
+    background: #1B1B1B url('./images/body_bg.jpg');
+    color: #999999;
+    font: 12px Tahoma, Geneva, sans-serif;
+    margin: 0 auto;
+    padding: 14px;
+    text-align: center;
+    width: 500px;
 }
-p,h1,form,button {
-    border:0;
-    margin:0;
-    padding:0;
+
+p, h1, form, button {
+    border: 0;
+    margin: 0;
+    padding: 0;
 }
+
 .spacer {
-    clear:both;
-    height:1px;
+    clear: both;
+    height: 1px;
 }
+
 .myform {
-    margin:0 auto;
+    margin: 0 auto;
     margin-bottom: 5px;
-    padding:14px;
-    width:auto;
+    padding: 14px;
+    width: auto;
 }
+
 #basic {
-	padding:10px;
-	margin-top: 50px;
-	border:1px solid #363636;
-	background: url('./images/hr.gif') bottom left no-repeat;
+    padding: 10px;
+    margin-top: 50px;
+    border: 1px solid #363636;
+    background: url('./images/hr.gif') bottom left no-repeat;
 }
+
 #basic h1 {
-    font-size:14px;
-    font-weight:700;
-    margin-bottom:8px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 8px;
 }
+
 #basic .title {
-    border-bottom:1px solid #363636;
-    color:#17BADE;
-    font-size:11px;
-    margin-bottom:20px;
-    padding-bottom:10px;
+    border-bottom: 1px solid #363636;
+    color: #17BADE;
+    font-size: 11px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
 }
+
 #basic label {
-    display:block;
-    float:left;
-    font-weight:700;
-    text-align:right;
-    width:140px;
+    display: block;
+    float: left;
+    font-weight: 700;
+    text-align: right;
+    width: 140px;
 }
+
 #basic .small {
-    color:#666;
-    display:block;
-    font-size:11px;
-    font-weight:400;
-    text-align:right;
-    width:140px;
+    color: #666;
+    display: block;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: right;
+    width: 140px;
 }
-#basic input,#basic select {
-    float:left;
-    margin:2px 0 30px 10px;
-    width:200px;
+
+#basic input, #basic select {
+    float: left;
+    margin: 2px 0 30px 10px;
+    width: 200px;
 }
+
 .error {
-	background: #D04747;
-	border: 1px solid #970000;
-	color: #FFF;
-    font-size:14px;
-	margin: 30px;
-    height:28px;
-    padding:10px 0 0 30px;
-    text-align:center;
-    text-shadow:#666 2px 2px 2px;
-    width:auto;
+    background: #D04747;
+    border: 1px solid #970000;
+    color: #FFF;
+    font-size: 14px;
+    margin: 30px;
+    height: 28px;
+    padding: 10px 0 0 30px;
+    text-align: center;
+    text-shadow: #666 2px 2px 2px;
+    width: auto;
 }
+
 .errorauto {
-    background:#9DA9E9;
-    color:#000;
-    font-size:14px;
-    height:auto;
-    padding:15px;
-    text-align:center;
-    width:auto;
+    background: #9DA9E9;
+    color: #000;
+    font-size: 14px;
+    height: auto;
+    padding: 15px;
+    text-align: center;
+    width: auto;
 }
+
 .noerror {
-	background: #6ED047;
-	border: 1px solid #449700;
-	color: #FFF;
-    font-size:14px;
-	margin: 30px;
-    height:28px;
-    padding:10px 0 0 30px;
-    text-align:left;
-    width:auto;
+    background: #6ED047;
+    border: 1px solid #449700;
+    color: #FFF;
+    font-size: 14px;
+    margin: 30px;
+    height: 28px;
+    padding: 10px 0 0 30px;
+    text-align: left;
+    width: auto;
 }
+
 .done {
-    background:#5ed638;
-    border:1px solid #ddd;
-    color:#000;
-    font-size:14px;
-    height:28px;
-    padding:10px 0 0 30px;
-    text-align:left;
-    width:auto;
+    background: #5ed638;
+    border: 1px solid #ddd;
+    color: #000;
+    font-size: 14px;
+    height: 28px;
+    padding: 10px 0 0 30px;
+    text-align: left;
+    width: auto;
 }
+
 .noerrorh1 {
-    background:#cdc9c9;
-    border:1px solid #ddd;
-    color:#000;
-    font-size:14px;
-    height:20px;
-    margin:0 auto;
-    padding:15px;
-    text-align:left;
-    width:auto;
+    background: #cdc9c9;
+    border: 1px solid #ddd;
+    color: #000;
+    font-size: 14px;
+    height: 20px;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: left;
+    width: auto;
 }
+
 .noerrorh {
-    background:#cdc9c9;
-    border:1px solid #ddd;
-    color:#000;
-    font-size:14px;
-    height:auto;
-    margin:0 auto;
-    padding:15px;
-    text-align:left;
-    width:auto;
+    background: #cdc9c9;
+    border: 1px solid #ddd;
+    color: #000;
+    font-size: 14px;
+    height: auto;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: left;
+    width: auto;
 }
+
 .noerrorh p {
-    padding-bottom:8px;
+    padding-bottom: 8px;
 }
+
 .cleaner {
-    clear:both;
+    clear: both;
 }
+
 .cleaner_with_height {
-    clear:both;
-    font-size:1px;
-    height:30px;
-    width:100%;
+    clear: both;
+    font-size: 1px;
+    height: 30px;
+    width: 100%;
 }
+
 .cleaner_with_lowheight {
-    clear:both;
-    font-size:1px;
-    height:10px;
-    width:100%;
+    clear: both;
+    font-size: 1px;
+    height: 10px;
+    width: 100%;
 }
+
 .left {
-    float:left;
-    padding-left:15px;
+    float: left;
+    padding-left: 15px;
 }
+
 .right {
-    float:right;
-    padding-right:15px;
+    float: right;
+    padding-right: 15px;
 }
-#chars,.chars {
-    cursor:pointer;
-    padding-left:15px;
+
+#chars, .chars {
+    cursor: pointer;
+    padding-left: 15px;
 }
+
 .chars {
-    color:#999;
+    color: #999;
 }
+
 #listchars {
-    border:1px solid #666;
+    border: 1px solid #666;
 }
+
 #listchars ol {
-    text-align:left;
+    text-align: left;
 }
+
 #listchars ol li {
-    clear:both;
-    margin-bottom:6px;
-    margin-right:6px;
+    clear: both;
+    margin-bottom: 6px;
+    margin-right: 6px;
 }
+
 #listchars ol li input {
-    float:left;
+    float: left;
 }
+
 .recompensa {
-    border:1px solid #666;
-    font-size:14px;
-    margin:4px 0;
-    padding:4px 0;
-    text-shadow:#666 0 0 2px;
+    border: 1px solid #666;
+    font-size: 14px;
+    margin: 4px 0;
+    padding: 4px 0;
+    text-shadow: #666 0 0 2px;
 }
+
 .nomechar {
-    font-style:italic;
-    letter-spacing:1px;
+    font-style: italic;
+    letter-spacing: 1px;
 }
+
 .tempo {
-    border:1px solid #ddd;
-    padding:3px;
+    border: 1px solid #ddd;
+    padding: 3px;
 }
+
 #credit {
-	color: #222;
-    font-size:14px;
-    text-align:center;
+    color: #222;
+    font-size: 14px;
+    text-align: center;
 
 }
+
 #credit a {
-    color:#555;
-    text-decoration:underline;
+    color: #555;
+    text-decoration: underline;
 }
+
 #credit a:hover {
-    text-decoration:none;
-    border-bottom:1px dashed;
-    color:#000;
+    text-decoration: none;
+    border-bottom: 1px dashed;
+    color: #000;
 }
-#sai,#pn,#close {
-    cursor:pointer;
-    font-weight:700;
+
+#sai, #pn, #close {
+    cursor: pointer;
+    font-weight: 700;
 }
-#sair,.hidden {
-    display:none;
+
+#sair, .hidden {
+    display: none;
 }
+
 .clear {
-    clear:both;
+    clear: both;
 }
+
 .smallfont {
-    font-size:11px;
-    margin-bottom:4px;
+    font-size: 11px;
+    margin-bottom: 4px;
 }
+
 ul#switchcolor {
-    list-style:none;
-    padding:0;
+    list-style: none;
+    padding: 0;
 }
+
 ul#switchcolor li {
-    cursor:pointer;
-    display:inline;
+    cursor: pointer;
+    display: inline;
 }
+
 .preview {
-    float:left;
-    height:24px;
-    width:24px;
+    float: left;
+    height: 24px;
+    width: 24px;
 }
+
 ul#switchcolor li div {
-    margin:13px 4px 4px;
+    margin: 13px 4px 4px;
 }
+
 ul#switchcolor li .padrao {
-    background:gray;
+    background: gray;
 }
+
 ul#switchcolor li .red {
-    background:red;
+    background: red;
 }
+
 ul#switchcolor li .purple {
-    background:purple;
+    background: purple;
 }
-#basic input[type=submit],#basic button {
-    background:#888;
-    border:1px solid #666;
-    clear:both;
-    color:#fff;
-    font-size:11px;
-    font-weight:700;
-    margin-left:150px;
-    padding:4px 6px;
-	cursor:pointer;
+
+#basic input[type=submit], #basic button {
+    background: #888;
+    border: 1px solid #666;
+    clear: both;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    margin-left: 150px;
+    padding: 4px 6px;
+    cursor: pointer;
 }
-b.tempo,.red {
-    color:red;
+
+b.tempo, .red {
+    color: red;
 }
-ul#dados{
-    list-style:none;
-    margin:0;
-    padding:0;
+
+ul#dados {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
-ul#dados li{
-    margin-bottom:8px;
+
+ul#dados li {
+    margin-bottom: 8px;
 }
-#ti,#ts,#li{
-    display:none;
+
+#ti, #ts, #li {
+    display: none;
 }
-#results{
-    border:1px solid #666;
-    margin:6px 0;
-    padding:10px;
+
+#results {
+    border: 1px solid #666;
+    margin: 6px 0;
+    padding: 10px;
     padding-bottom: 0;
 }
-#results a#close:before{
+
+#results a#close:before {
     content: 'Fechar ';
 }

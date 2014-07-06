@@ -75,7 +75,7 @@ if ($contagem != 1 || !(strpos($_SERVER['HTTP_REFERER'], 'panel.php') !== false)
                         //************************************************************************************
                         mysql_query("UPDATE totalvoto SET votos = (votos+1)") or die(mysql_error());
 
-                        //fim de todo o registro*************************************************************
+                        //fim de to do o registro*************************************************************
 
 
                         function voteLinks() {
