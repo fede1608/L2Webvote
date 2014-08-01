@@ -18,7 +18,6 @@ if ($contagem != 1) {
 
             -->
         </style>
-        <br><br><br><br><br>
         <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
         <title>Negakih - Sistema de Votaciones</title>
         <link rel="stylesheet" type="text/css" href="css/style.css" media="all"/>
@@ -124,6 +123,8 @@ if ($contagem != 1) {
                             <?php
                             }
                             ?>
+                            <a href="entregar.php" >
+                                <img src="img/confirmar_votaciones.png" alt="prize"/> </a>
                         </div>
                     <?php
                     }
@@ -149,10 +150,10 @@ if ($contagem != 1) {
 				</span>
         </ul>
     </div>
-    <div class="cleaner_with_lowheight"></div>
+    <!--<div class="cleaner_with_lowheight"></div>
     <div class="noerrorh1">
         <div class="Estilo1" id="credit">http://negakih.com</div>
-    </div>
+    </div>-->
     </body>
     </html>
 <?php

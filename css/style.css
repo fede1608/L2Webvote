@@ -1,5 +1,5 @@
 body {
-    background: #1B1B1B url('./images/body_bg.jpg');
+    /*background: #1B1B1B url('./images/body_bg.jpg');*/
     color: #999999;
     font: 12px Tahoma, Geneva, sans-serif;
     margin: 0 auto;
@@ -29,8 +29,8 @@ p, h1, form, button {
 #basic {
     padding: 10px;
     margin-top: 50px;
-    border: 1px solid #363636;
-    background: url('./images/hr.gif') bottom left no-repeat;
+   /* border: 1px solid #363636;
+    background: url('./images/hr.gif') bottom left no-repeat;*/
 }
 
 #basic h1 {

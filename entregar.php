@@ -37,8 +37,10 @@ if ($contagem != 1 || !(strpos($_SERVER['HTTP_REFERER'], 'panel.php') !== false)
             <tr>
                 <td class="none">
                     <p>
-                        <strong><span class="Estilo1">Muchas gr&aacute;cias por tu voto </span></strong>
 
+                    <div class="noerrorh1"><strong><span
+                                class="Estilo1">Muchas gr&aacute;cias por tu voto </span></strong>
+                    </div>
                     <div class="noerrorh1"><span class="left">Ya casi terminas  <b><?php echo $_SESSION['login']; ?></b></span>
                     </div>
                     <p>
@@ -67,7 +69,7 @@ if ($contagem != 1 || !(strpos($_SERVER['HTTP_REFERER'], 'panel.php') !== false)
 
                     if (($c_ip == 0) && ($c_login == 0)) {
 
-                    ?><strong>Elije el Personaje en el cual deseas recibir el reward </strong>
+                    ?><div class="noerrorh1"><strong>Elije el Personaje en el cual deseas recibir el reward </strong></div>
 
                     <p>
 
@@ -106,7 +108,8 @@ if ($contagem != 1 || !(strpos($_SERVER['HTTP_REFERER'], 'panel.php') !== false)
                     echo voteLinks();
 
                     ?>
-                    <form id="form1" name="form1" method="post" action="verificar.php">
+
+                    <form id="form1" name="form1" method="post" action="verificar.php" style="display: inline-flex;">
                         <p>
                             <label>
                                 <select name="char_Id" id="char_Id">
@@ -142,7 +145,7 @@ if ($contagem != 1 || !(strpos($_SERVER['HTTP_REFERER'], 'panel.php') !== false)
         <p><a href="salir.php">Cerrar</a></p></td>
         </tr>
     </table>
-    <div class="noerrorh1"></div>
+
     </body>
     </html>
 <?php

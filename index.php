@@ -3,7 +3,7 @@
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <br><br><br><br><br><br><br><br><br><br><br>
+
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
     <title>Negakih - Sistema de Votaciones</title>
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
@@ -62,7 +62,7 @@
 </div>
 
 </table><br>
-<br>
+<br><!--
 <table cellspacing="0" cellpadding="0" border="0" align="center" width="95%">
     <tr>
         <td nowrap="nowrap" align="center">
@@ -72,13 +72,13 @@
                 google_ad_slot = "2951832371";
                 google_ad_width = 728;
                 google_ad_height = 90;
-                //-->
+                //--
             </script>
             <script type="text/javascript"
                     src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
             </script>
         </td>
     </tr>
-</table>
+</table>-->
 </body>
 </html>

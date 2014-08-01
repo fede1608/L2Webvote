@@ -29,7 +29,7 @@ $(document).ready(function () {
     $('#VoteLinks').find('a').addClass('noVote').click(function () {
         var voteEl = this;
         if ($(this).hasClass('noVote') || $(this).hasClass('doneVote')) {
-            alert('Você ainda não votou no servidor.');
+            alert('Usted no ha votado todavia en el servidor.');
             return false;
         } else {
             $(voteEl).find('img').css('border-color', '#FF6600');
@@ -55,5 +55,5 @@ function abre(url) {
     return false;
 }
 function sair(form, user) {
-    return confirm(user + ", deseja mesmo sair?");
+    return confirm(user + ", usted realmente desea salir?");
 }
