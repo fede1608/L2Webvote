@@ -5,13 +5,13 @@ include "config/config.php";
 
 $login_c = $_POST['login'];
 $senha_c = $_POST['password'];
-$base_c = $basedados_accounts;
+$base_c = $gameserver_db;
 
 
-$con = mysql_connect($servidor_mysql, $usuario_mysql, $senha_mysql) or die(mysql_error());
-mysql_select_db($basedados_accounts, $con) or die(mysql_error());
+$con = mysql_connect($servidor_mysql, $usuario_mysql, $pass_mysql) or die(mysql_error());
+mysql_select_db($gameserver_db, $con) or die(mysql_error());
 
-$confirmar = mysql_query("SELECT * FROM accounts WHERE login = '" . $login_c . "' AND password = '" . base64_encode(pack('H*', sha1($senha_c))) . "'", $con) or die(mysql_error());
+$confirmar = mysql_query("SELECT * FROM {$loginserver_db}.accounts WHERE login = '" . $login_c . "' AND password = '" . base64_encode(pack('H*', sha1($senha_c))) . "'", $con) or die(mysql_error());
 $contagem = mysql_num_rows($confirmar);
 $c = mysql_fetch_array($confirmar);
 

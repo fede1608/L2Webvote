@@ -21,7 +21,7 @@ if ($contagem != 1 || !(strpos($_SERVER['HTTP_REFERER'], 'panel.php') !== false)
         <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
 
-        <title>[HSR] Herederos Sin Reinos - Sistema de Votaciones</title>
+        <title>Negakih - Sistema de Votaciones</title>
         <style type="text/css">
             <!--
             .Estilo1 {

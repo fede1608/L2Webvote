@@ -70,7 +70,7 @@ if ($contagem != 1) {
 
                 mysql_query("UPDATE items SET count = (count + '" . $qtd_item . "') WHERE object_id = '" . $c_h['object_id'] . "'") or die (mysql_error());
 
-                echo "<script>alert('Gracias por votar a Herederos Sin reinos!!');</script>";
+                echo "<script>alert('Gracias por votar a Negakih!!');</script>";
                 echo "<script>window.location='javascript:history.go(-1)';</script>";
             } else {
 

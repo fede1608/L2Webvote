@@ -20,7 +20,7 @@ if ($contagem != 1) {
         </style>
         <br><br><br><br><br>
         <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
-        <title>[HSR] Herederos Sin Reinos - Sistema de Votaciones</title>
+        <title>Negakih - Sistema de Votaciones</title>
         <link rel="stylesheet" type="text/css" href="css/style.css" media="all"/>
         <link href="../favicon.gif" rel="shortcut icon"/>
         <script type="text/javascript" src="js/jquery-1.3.2.js"></script>
@@ -39,8 +39,7 @@ if ($contagem != 1) {
     <script language="JavaScript" type="text/javascript">
         //<![CDATA[
 
-        <
-        !--
+
 
             function inhabilitar() {
                 alert("Debes votar en todos los banners, no puedes saltearte los pasos")
@@ -143,7 +142,7 @@ if ($contagem != 1) {
             <?php
             }else{
             ?>
-            <span class="branco"><b>INFORMACION:</b> Ya habeis votado! Votaciones por IP/cuenta cada 24 horas!<br>
+            <span class="branco"><b>INFORMACION:</b> Ya has votado! Votaciones por IP/cuenta cada 24 horas!<br>
                 <?php
                 }
                 ?>
@@ -152,7 +151,7 @@ if ($contagem != 1) {
     </div>
     <div class="cleaner_with_lowheight"></div>
     <div class="noerrorh1">
-        <div class="Estilo1" id="credit">http://hsr.united-extreme.com</div>
+        <div class="Estilo1" id="credit">http://negakih.com</div>
     </div>
     </body>
     </html>

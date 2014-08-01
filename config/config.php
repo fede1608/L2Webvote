@@ -2,23 +2,24 @@
 
 session_start();
 
-//LOCAL QUE VOCÊ PRECISA ALTERAR
+
 $servidor_mysql = "xxx.xxx.xxx.xxx";
 $usuario_mysql = "xxxxxxxxxxx";
-$senha_mysql = "xxxxxxxxx";
-$basedados_accounts = "xxxxxxxxxxx";
-/*/ ALTERAÇÕES SOMENTE ATÉ AQUI/*/
+$pass_mysql = "xxxxxxxxx";
+$gameserver_db = "xxxxxxxxxxx";
+$gameserver_db = "xxxxxxxxxxx";
+$loginserver_db = "xxxxxxxxxxx";
 
 
-$con = mysql_connect($servidor_mysql, $usuario_mysql, $senha_mysql) or die(mysql_error());
-mysql_select_db($basedados_accounts, $con) or die(mysql_error());
+$con = mysql_connect($servidor_mysql, $usuario_mysql, $pass_mysql) or die(mysql_error());
+mysql_select_db($gameserver_db, $con) or die(mysql_error());
 
 
 $login_session = @$_SESSION['login'];
-$senha_session = @$_SESSION['senha'];
+$pass_session = @$_SESSION['senha'];
 
 
-$confirmar = mysql_query("SELECT * FROM accounts WHERE login = '" . $login_session . "' AND password = '" . $senha_session . "'") or die(mysql_error());
+$confirmar = mysql_query("SELECT * FROM {$loginserver_db}.accounts WHERE login = '" . $login_session . "' AND password = '" . $pass_session . "'") or die(mysql_error());
 $contagem = mysql_num_rows($confirmar);
 $dados = mysql_fetch_array($confirmar);
 

@@ -5,7 +5,7 @@
 <head>
     <br><br><br><br><br><br><br><br><br><br><br>
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
-    <title>[HSR] Herederos Sin Reinos - Sistema de Votaciones</title>
+    <title>Negakih - Sistema de Votaciones</title>
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
     <link href="../favicon.gif" rel="shortcut icon"/>
     <script type="text/javascript" src="../scripts/block.js"></script>
@@ -55,7 +55,7 @@
 
                 <p>&nbsp;</p>
 
-                <p><font color="#0099FF" size="2">http://hsr.united-extreme.com</font></p>
+                <p><font color="#0099FF" size="2">http://negakih.com</font></p>
             </div>
         </td>
     </form>
