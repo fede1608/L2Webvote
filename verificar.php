@@ -15,12 +15,12 @@ if ($contagem != 1) {
 
     //inicia busca de login
     //********************************************************************************
-    $sql_login = mysql_query("SELECT * FROM loginvotos WHERE login='$_SESSION[login]'");
+    $sql_login = mysql_query("SELECT * FROM vote_loginvotos WHERE login='$_SESSION[login]'");
     $c_login = mysql_num_rows($sql_login);
     //********************************************************************************
     //inicia busca de ip
     //********************************************************************************
-    $sql_ip = mysql_query("SELECT * FROM ipvotos WHERE ip='$_SERVER[REMOTE_ADDR]'");
+    $sql_ip = mysql_query("SELECT * FROM vote_ipvotos WHERE ip='$_SERVER[REMOTE_ADDR]'");
     $c_ip = mysql_num_rows($sql_ip);
     //********************************************************************************
 
@@ -30,7 +30,7 @@ if ($contagem != 1) {
 
         $charid = $_POST['char_Id'];
 
-        $a = mysql_query("SELECT valor FROM voto_config WHERE id = 'seu_id_topgs200'") or die (mysql_error());
+        $a = mysql_query("SELECT valor FROM vote_voto_config WHERE id = 'seu_id_topgs200'") or die (mysql_error());
         $c_a = mysql_fetch_array($a);
 
 
@@ -54,8 +54,8 @@ if ($contagem != 1) {
         } else {
             //inicio do registro de lieberaÃ§Ã£o de acesso ao site******************************
 
-            mysql_query("REPLACE INTO `ipvotos` (`ip`, `datadovoto`) VALUES ('$_SERVER[REMOTE_ADDR]', '$dataatual')") or die(mysql_error());
-            mysql_query("REPLACE INTO `loginvotos` (`login`, `datadovoto`) VALUES ('$_SESSION[login]', '$dataatual')") or die(mysql_error());
+            mysql_query("REPLACE INTO `vote_ipvotos` (`ip`, `datadovoto`) VALUES ('$_SERVER[REMOTE_ADDR]', '$dataatual')") or die(mysql_error());
+            mysql_query("REPLACE INTO `vote_loginvotos` (`login`, `datadovoto`) VALUES ('$_SESSION[login]', '$dataatual')") or die(mysql_error());
 
             ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 

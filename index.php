@@ -47,7 +47,7 @@
 
                 <p><font color="#0099FF" size="2">Votos Totales:
                         <?php
-                        $totaldevotos = mysql_query("SELECT * FROM totalvoto") or die(mysql_error());
+                        $totaldevotos = mysql_query("SELECT * FROM vote_totalvoto") or die(mysql_error());
                         $contagem_votos = mysql_fetch_array($totaldevotos);
                         echo $contagem_votos['votos'];
                         ?>

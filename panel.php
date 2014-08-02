@@ -90,18 +90,18 @@ if ($contagem != 1) {
             <?php
             $dataatual = date("d/m/Y"); //Dia: M&ecirc;s: Ano:
 
-            mysql_query("DELETE FROM ipvotos WHERE datadovoto < '" . $dataatual . "'")or die (mysql_error());
-            mysql_query("DELETE FROM loginvotos WHERE datadovoto < '" . $dataatual . "'")or die (mysql_error());
+            mysql_query("DELETE FROM vote_ipvotos WHERE datadovoto < '" . $dataatual . "'")or die (mysql_error());
+            mysql_query("DELETE FROM vote_loginvotos WHERE datadovoto < '" . $dataatual . "'")or die (mysql_error());
 
             //inicia busca de ip
             //********************************************************************************
-            $sql_ip = mysql_query("SELECT * FROM ipvotos WHERE ip='$_SERVER[REMOTE_ADDR]'");
+            $sql_ip = mysql_query("SELECT * FROM vote_ipvotos WHERE ip='$_SERVER[REMOTE_ADDR]'");
             $c_ip = mysql_num_rows($sql_ip);
             //********************************************************************************
 
             //inicia busca de login
             //********************************************************************************
-            $sql_login = mysql_query("SELECT * FROM loginvotos WHERE login='$_SESSION[login]'");
+            $sql_login = mysql_query("SELECT * FROM vote_loginvotos WHERE login='$_SESSION[login]'");
             $c_login = mysql_num_rows($sql_login);
             //********************************************************************************
 
@@ -115,7 +115,7 @@ if ($contagem != 1) {
                         ?>
                         <div id="VoteLinks" align="center">
                             <?php
-                            $lista_top = mysql_query("SELECT * FROM lista_top") or die (mysql_error());
+                            $lista_top = mysql_query("SELECT * FROM vote_lista_top") or die (mysql_error());
                             while ($lista_links = mysql_fetch_array($lista_top)) {
                                 ?>
                                 <a href="<?php echo $lista_links['link_voto']; ?>" target="_blank">

@@ -27,17 +27,17 @@ if ($contagem == 1) {
     $_SESSION['logado'] = 1;
 }
 
-$config = mysql_query("SELECT valor FROM voto_config WHERE id = 'item_id'");
+$config = mysql_query("SELECT valor FROM vote_voto_config WHERE id = 'item_id'");
 $c_config = mysql_fetch_array($config);
 
 $item = $c_config['valor'];
 
-$config = mysql_query("SELECT valor FROM voto_config WHERE id = 'quantidade'");
+$config = mysql_query("SELECT valor FROM vote_voto_config WHERE id = 'quantidade'");
 $c_config = mysql_fetch_array($config);
 
 $qtd_item = $c_config['valor'];
 
-$config = mysql_query("SELECT valor FROM voto_config WHERE id = 'seu_id_topgs200'");
+$config = mysql_query("SELECT valor FROM vote_voto_config WHERE id = 'seu_id_topgs200'");
 $c_config = mysql_fetch_array($config);
 
 $link_voto = 'http://www.topgs200.com/lineage2/voto.php?id=' . $c_config['valor'] . '';
