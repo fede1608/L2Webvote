@@ -67,20 +67,17 @@ if ($contagem != 1) {
             <p align="left"><b>Tutorial:</b></p>
 
             <p align="left">
-                <b>1.-</b> Antes de comenzar a votar, asegurese de tener tanto su personaje como la cuenta utilizada en
-                este panel desconectada.<br>
+                <b>1.-</b> Antes de comenzar a votar, ASEGURATE de tener tanto tu personaje como la cuenta utilizada en este panel desconectada.<br>
                 <br>
-                <b>2.-</b> Vote en cada uno de los banners pinchando en su imagen. Os redireccionaran hacia su web en
-                donde tendreis que votar y cuando voteis en uno, se desbloqueara el siguiente vote. Algunos requieren un
-                codigo para evitar posibles bots y otros no. Por cada cinco votaciones realizadas con exito, obtendreis
-                una medalla!<br>
+                <b>2.-</b> Votá en cada uno de los banners haciendo click en su imagen. Esto te redireccionará hacia su web en donde
+                tendés que votar y cuando votes en uno, se desbloqueará el siguiente banner. Algunos requieren un código para evitar
+                posibles bots y otros no. Por cada cinco votaciones realizadas con éxito, obtendrás reward!<br>
                 <br>
-                <b>3.-</b> Una vez que hayais votado en todos los enlaces disponibles, pulsar sobre el enlace de "<b>Confirmar
-                    Votaciones</b>" y os aparecera una ventana en donde tendreis que indicarnos el personaje al que se
-                le entregara la medalla. Os recordamos de nuevo que dicho personaje ha de estar desconectado, asi como
-                su cuenta.<br>
+                <b>3.-</b> Una vez que hayas votado en todos los banners disponibles, clickeá en "<b>Confirmar
+                    Votaciones</b>"  y te aparecerá una ventana en donde vas a tener que indicar el personaje al que querés que se
+                entregue el reward. Te recordamos, de nuevo, que dicho personaje tiene que estar desconectado al igual que la cuenta.<br>
                 <br>
-                <b>4.-</b> Una vez indicado el personaje, pulsamos sobre el boton de "<b>Recibir Recompensa</b>" y
+                <b>4.-</b> Una vez indicado el personaje, hacé click sobre "<b>Recibir Recompensa</b>" y
                 listo!<br>
                 <br>
                 <b>5.-</b> <b>NOTA:</b> Votaciones por IP/cuenta cada 24 horas!<br><br>
