@@ -19,7 +19,7 @@ if ($contagem != 1) {
             -->
         </style>
         <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
-        <title>Negakih - Sistema de Votaciones</title>
+        <title>Debyan - Sistema de Votaciones</title>
         <link rel="stylesheet" type="text/css" href="css/style.css" media="all"/>
         <link href="../favicon.gif" rel="shortcut icon"/>
         <script type="text/javascript" src="js/jquery-1.3.2.js"></script>
@@ -69,15 +69,15 @@ if ($contagem != 1) {
             <p align="left">
                 <b>1.-</b> Antes de comenzar a votar, ASEGURATE de tener tanto tu personaje como la cuenta utilizada en este panel desconectada.<br>
                 <br>
-                <b>2.-</b> Votá en cada uno de los banners haciendo click en su imagen. Esto te redireccionará hacia su web en donde
-                tendés que votar y cuando votes en uno, se desbloqueará el siguiente banner. Algunos requieren un código para evitar
-                posibles bots y otros no. Por cada cinco votaciones realizadas con éxito, obtendrás reward!<br>
+                <b>2.-</b> Votï¿½ en cada uno de los banners haciendo click en su imagen. Esto te redireccionarï¿½ hacia su web en donde
+                tendï¿½s que votar y cuando votes en uno, se desbloquearï¿½ el siguiente banner. Algunos requieren un cï¿½digo para evitar
+                posibles bots y otros no. Por cada cinco votaciones realizadas con ï¿½xito, obtendrï¿½s reward!<br>
                 <br>
-                <b>3.-</b> Una vez que hayas votado en todos los banners disponibles, clickeá en "<b>Confirmar
-                    Votaciones</b>"  y te aparecerá una ventana en donde vas a tener que indicar el personaje al que querés que se
+                <b>3.-</b> Una vez que hayas votado en todos los banners disponibles, clickeï¿½ en "<b>Confirmar
+                    Votaciones</b>"  y te aparecerï¿½ una ventana en donde vas a tener que indicar el personaje al que querï¿½s que se
                 entregue el reward. Te recordamos, de nuevo, que dicho personaje tiene que estar desconectado al igual que la cuenta.<br>
                 <br>
-                <b>4.-</b> Una vez indicado el personaje, hacé click sobre "<b>Recibir Recompensa</b>" y
+                <b>4.-</b> Una vez indicado el personaje, hacï¿½ click sobre "<b>Recibir Recompensa</b>" y
                 listo!<br>
                 <br>
                 <b>5.-</b> <b>NOTA:</b> Votaciones por IP/cuenta cada 24 horas!<br><br>
@@ -149,7 +149,7 @@ if ($contagem != 1) {
     </div>
     <!--<div class="cleaner_with_lowheight"></div>
     <div class="noerrorh1">
-        <div class="Estilo1" id="credit">http://negakih.com</div>
+        <div class="Estilo1" id="credit">http://Debyan.com</div>
     </div>-->
     </body>
     </html>

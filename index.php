@@ -5,7 +5,7 @@
 <head>
 
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
-    <title>Negakih - Sistema de Votaciones</title>
+    <title>Debyan - Sistema de Votaciones</title>
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
     <link href="../favicon.gif" rel="shortcut icon"/>
     <script type="text/javascript" src="../scripts/block.js"></script>
@@ -55,7 +55,7 @@
 
                 <p>&nbsp;</p>
 
-                <p><font color="#0099FF" size="2">http://negakih.com</font></p>
+                <p><font color="#0099FF" size="2">http://Debyan.com</font></p>
             </div>
         </td>
     </form>

@@ -62,7 +62,7 @@ INSERT INTO `vote_lista_top` VALUES ('2', 'http://l2topzone.com/vote.php?id=5675
 INSERT INTO `vote_lista_top` VALUES ('3', 'http://www.l2top.co/vote/server/1204', 'http://nsae01.casimages.net/img/2013/04/22/13042203003436169.png');
 INSERT INTO `vote_lista_top` VALUES ('4', 'http://www.top100arena.com/in.asp?id=34307 ', 'http://www.top100arena.com/hit.asp?id=34307&c=La2&t=2');
 INSERT INTO `vote_lista_top` VALUES ('5', 'http://www.gtop100.com/in.php?site=45190', 'http://www.gtop100.com/images/votebutton.jpg');
-INSERT INTO `vote_lista_top` VALUES ('6', 'entregar.php', 'http://negakih.com/img/confirmar_votaciones.png');
+INSERT INTO `vote_lista_top` VALUES ('6', 'entregar.php', 'http://debyan.com/img/confirmar_votaciones.png');
 -- ----------------------------
 -- Table structure for `vote_ipvotos`
 -- ----------------------------

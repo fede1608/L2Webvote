@@ -3,12 +3,11 @@
 session_start();
 
 
-$servidor_mysql = "xxx.xxx.xxx.xxx";
-$usuario_mysql = "xxxxxxxxxxx";
-$pass_mysql = "xxxxxxxxx";
-$gameserver_db = "xxxxxxxxxxx";
-$gameserver_db = "xxxxxxxxxxx";
-$loginserver_db = "xxxxxxxxxxx";
+$servidor_mysql = "h5.l2-debyan.com";
+$usuario_mysql = "";
+$pass_mysql = "";
+$gameserver_db = "zadmin_debyantest";
+$loginserver_db = "zadmin_debyantest";
 
 
 $con = mysql_connect($servidor_mysql, $usuario_mysql, $pass_mysql) or die(mysql_error());
